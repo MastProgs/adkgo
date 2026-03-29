@@ -91,8 +91,6 @@ go mod tidy
   api_keys = ["sk-ant-YOUR-ANTHROPIC-KEY"]
 ```
 
-> **팁**: 현재 OpenAI와 Anthropic 어댑터는 Stub 상태입니다. `internal/provider/openai.go`와 `claude.go`에 실제 SDK 연동 코드를 추가하여 확장하세요.
-
 ### 3단계: 서버 실행
 
 ```bash
