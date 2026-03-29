@@ -1,0 +1,16 @@
+# AI-NOTE: 각 모델 공급자(Provider)별 설정입니다. 모든 모델이 시작 시 Registry에 로드됩니다.
+[models]
+  [models.gemini]
+  provider = "gemini"
+  model_name = "gemini-2.5-flash"
+  api_keys = ["AIzaSy-dummy1", "AIzaSy-dummy2"]
+
+  [models.gpt]
+  provider = "openai"
+  model_name = "gpt-4o"
+  api_keys = ["sk-proj-dummy1"]
+
+  [models.claude]
+  provider = "anthropic"
+  model_name = "claude-3-5-sonnet-20240620"
+  api_keys = ["sk-ant-dummy1"]
